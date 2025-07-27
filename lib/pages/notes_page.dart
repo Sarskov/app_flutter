@@ -143,7 +143,7 @@ void confirmarExclusao(File arquivo) async {
         onPressed: () => abrirArquivo(arquivo),
       ),
       IconButton(
-        icon: Icon(Icons.delete, color: Colors.red),
+        icon: Icon(Icons.delete, color: Colors.grey),
         onPressed: () => confirmarExclusao(arquivo),
       ),
     ],
